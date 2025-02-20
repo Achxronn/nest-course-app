@@ -29,4 +29,9 @@ export class AppController {
   showGIT(): string {
     return this.appService.testGIT();
   }
+
+  @Get('/usepostman') //localhost:3000/usepostman
+  usePostman(): string {
+    return this.appService.UPostman();
+  }
 }

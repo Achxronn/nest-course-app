@@ -25,4 +25,8 @@ export class AppService {
   testGIT(): string {
     return 'Git and Github using';
   }
+
+  UPostman(): string {
+    return 'we use postman';
+  }
 }
